@@ -56,17 +56,19 @@
 
 	<h4>CSS resultante:</h4>
 
-	<pre>
+	<pre class="code-block">
     {style}
   </pre>
 	<button bind:this={button} on:click={copyToClipboard}>Copiar para área de transferência</button>
 </main>
 
 <style>
-	/* .test {
-		border-top-left-radius: 10px;
-		border-top-right-radius: 10px;
-		border-bottom-left-radius: 10px;
-		border-bottom-right-radius: 10px;
-	} */
+	.code-block {
+		background-color: darkslategray;
+		padding: 20px;
+		font-size: 1.1rem;
+		font-weight: bold;
+		border-radius: 10px;
+		color: white;
+	}
 </style>
